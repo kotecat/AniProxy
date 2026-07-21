@@ -632,5 +632,4 @@ def create_app():
 
 
 if __name__ == "__main__":
-    print(f"Сервер запущен на http://localhost:{PORT}")
     web.run_app(create_app(), host=Config.HOST, port=Config.PORT)
